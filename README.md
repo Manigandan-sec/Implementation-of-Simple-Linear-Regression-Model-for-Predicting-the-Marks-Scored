@@ -78,9 +78,6 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
-<img width="1122" height="701" alt="Opera Snapshot_2026-01-30_091752_localhost" src="https://github.com/user-attachments/assets/9bc6544d-c84e-4660-87ca-c2f73abdddab" />
-
-
 # Step 9: Predict Marks for custom input
 hours = 7.5
 predicted_marks = model.predict([[hours]])
@@ -89,7 +86,7 @@ print(f"\nPredicted marks for {hours} hours of study = {predicted_marks[0]:.2f}"
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+<img width="1122" height="701" alt="Opera Snapshot_2026-01-30_091752_localhost" src="https://github.com/user-attachments/assets/9bc6544d-c84e-4660-87ca-c2f73abdddab" />
 
 
 ## Result:
